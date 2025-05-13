@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "CRUD.Controller.FilmesController",
+    "Method": "BuscaFilmes",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.FilmesController",
+    "Method": "AdicionaAsync",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_aplication.Models.FilmesRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.FilmesController",
+    "Method": "AtualizaAsync",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_aplication.Models.FilmesRequest",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.FilmesController",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Filmes",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.ProdutoraController",
+    "Method": "BuscaProdutora",
+    "RelativePath": "api/Produtora",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.ProdutoraController",
+    "Method": "AdicionaProdutoraAsync",
+    "RelativePath": "api/Produtora",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CRUD_aplication.Models.ProdutoraRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD.Controller.ProdutoraController",
+    "Method": "BuscaProdutora",
+    "RelativePath": "api/Produtora/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
