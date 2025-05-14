@@ -37,6 +37,18 @@ namespace CRUD.Controller
         {
             return Ok(await _produtoraService.AdicionaProdutoraAsync(request));
         }
+
+        [HttpPut]
+        public async Task<IActionResult> AtualizarProdutoraAsync(ProdutoraRequest request, int id)
+        {
+            return Ok(await _produtoraService.AtualizarProdutoraAsync(request, id));
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeletarProdutoraAsync(int id)
+        {
+            return Ok(await _produtoraService.DeletarProdutoraAsync(id));
+        }
     }
 }
 

@@ -7,5 +7,7 @@ namespace CRUD_aplication.Repository.Interface
         Task<List<ProdutoraResponse>> BuscaProdutoraAsync();
         Task<ProdutoraResponse?> BuscaProdutoraAsync(int id);
         Task<bool> AdicionaProdutoraAsync(ProdutoraRequest request);
+        Task<bool> AtualizarProdutoraAsync(ProdutoraRequest request, int id);
+        Task<bool> DeletarProdutoraAsync(int id);
     }
 }

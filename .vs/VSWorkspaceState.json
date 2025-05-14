@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CRUD_aplication",
+    "\\CRUD_aplication\\Controllers",
+    "\\CRUD_aplication\\Properties",
+    "\\CRUD_aplication\\Repository",
+    "\\CRUD_aplication\\Repository\\Implementation",
+    "\\CRUD_aplication\\Service"
+  ],
+  "SelectedNode": "\\CRUD_aplication\\CRUD_aplication.csproj",
+  "PreviewInSolutionExplorer": false
+}
