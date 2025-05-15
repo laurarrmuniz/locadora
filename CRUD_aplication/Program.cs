@@ -16,6 +16,8 @@ builder.Services.AddScoped<IProdutoraRepository, ProdutoraRepository>();
 builder.Services.AddScoped<IProdutoraService, ProdutoraService>();
 builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IElencoRepository, ElencoRepository>();
+builder.Services.AddScoped<IElencoService, ElencoService>();
 
 var app = builder.Build();
 
